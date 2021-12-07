@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tranzact Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="com.automation.api.listeners.Listener"/>
+    </listeners>
+
+    <test name="test cases run">
+        <classes>
+            <class name="com.automation.api.countries.CountryCrudTest"/>
+        </classes>
+    </test>
+
+</suite>
